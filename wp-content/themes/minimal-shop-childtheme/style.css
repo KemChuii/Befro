@@ -1,0 +1,32 @@
+    /*
+Theme name: Minimal Shop Child Theme
+Theme URI: https://afthemes.com/products/minimal-shop/
+Description: A child theme of minimal-shop theme
+Author: Team Awesome
+URI Author: http://phamily.one
+Version: 0.0.1
+Template: storecommerce
+*/
+
+.top-header {
+    background-color: #b50937;
+}
+
+div#site-primary-navigation {
+    background-color: #b50937;
+}
+.af-cart-icon-and-count.dropdown-toggle {
+    color: white;
+}
+div#storecommerce_store_call_to_action-3 {
+    display: none;
+}
+
+
+
+body .main-navigation .menu ul.menu-desktop > li > a, p.woocommerce-mini-cart__empty-message, body .af-cart-icon-and-count:after{
+    color: white;
+}
+body .main-navigation .menu ul.menu-desktop > li > a:visited {
+    color: white;
+}
