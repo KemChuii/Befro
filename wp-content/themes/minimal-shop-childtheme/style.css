@@ -8,6 +8,10 @@ Version: 0.0.1
 Template: storecommerce
 */
 
+li:hover {
+    background-color: blue;
+}
+
 .top-header {
     background-color: #b50937;
 }
