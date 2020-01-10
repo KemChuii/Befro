@@ -31,7 +31,7 @@ function contactform()
     
  
     
-    $content .='<input id="booknow" type="submit" value="Book nu">';
+    $content .='<input id="booknow" type="submit" value="Tilmeld">';
     
     
     $content .='</form>';

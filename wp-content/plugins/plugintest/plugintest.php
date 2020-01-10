@@ -3,8 +3,8 @@
 *Plugin Name: Simple WordPress submit Form Plugin
 *Plugin URI: http://localhost
 *Description: This is a simple plugin based on HTML5, CSS and PHP with a submit form where you can submit to be redirected to another site.
-*Version: 0.1.1
-*Author: Thanh Nhan, Didde Munck, Christina Damkjaer & Nicolai Appelby Brag
+*Version: 0.1.2
+*Author: Thanh Nhan, Nicolai Appelby Brag
 *Author URI: http://localhosts
 *License: GPL2
 */
@@ -13,14 +13,14 @@ function my_form()
 {
     $content = '';
    
-    
-      $content .='<form class="submit" method="post" action="http://phamily.one/Befro/tilmeld-dig-her/">';
+    /* Knappen til at submit */
+      $content .='<form class="submit" method="post" action="http://phamily.one/Befro/125-2/tilmeldt-nyhedsbrev/">';
     
     
     $content .= '<div class="submit-form">';
     
    
-    
+    /* Krydset til at lukke for plugin */
     $content .= '<div class="popupCloseButton">+</div>';
   
     $content .= '<div id="promotion-header">';
@@ -34,7 +34,7 @@ function my_form()
    
    $content .='<input type="email" name="email" placeholder="E-mail"/>';
    $content .='<br>';
-  
+   
     $content .= '<div id="submitForm">';
     $content .= '<input type="submit" id="submitBtn" name="submitBtn" value="TILMELD HER">';
     $content .= '</div>';

@@ -9,7 +9,9 @@ Template: storecommerce
 */
 
 li:hover {
-    background-color: blue;
+    background-color: black;
+    opacity: 90%;
+    border-radius: 10px;
 }
 
 .top-header {
@@ -19,12 +21,13 @@ li:hover {
 div#site-primary-navigation {
     background-color: #b50937;
 }
-.af-cart-icon-and-count.dropdown-toggle {
-    color: white;
-}
 div#storecommerce_store_call_to_action-3 {
     display: none;
 }
+.af-cart-icon-and-count.dropdown-toggle {
+    color: white;
+}
+
 
 
 
@@ -33,4 +36,5 @@ body .main-navigation .menu ul.menu-desktop > li > a, p.woocommerce-mini-cart__e
 }
 body .main-navigation .menu ul.menu-desktop > li > a:visited {
     color: white;
-}
+;
+
